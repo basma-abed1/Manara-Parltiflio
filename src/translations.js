@@ -6,15 +6,44 @@ export const translations = {
     team: "فريقنا",
     contact: "اتصل بنا",
     join: "انضم إلينا",
-    heroTitle: "منارة من قلب الركام... نور لا ينطفئ",
-    heroDesc: "من تحت رماد التحديات ووسط ركام غزة ولدت منارة ... لا كفكرة عابرة، بل كرسالة",
-    aboutTitle: "من نحن",
-  aboutP1: "منارة هي فريق تقني تدريبي يهدف إلى تمكين الشباب والطلاب في قطاع غزة من خلال المعرفة التقنية والمهارات العملية.",
-  aboutP2: "نحن نؤمن أن التكنولوجيا ليست فقط أدوات، بل فرصة حقيقية للتغيير وبناء مستقبل أفضل.",
-  aboutP3: "نعمل على تنفيذ أنشطة لا منهجية موجهة للطلاب، بالإضافة إلى برامج مخصصة للنساء والأطفال، تجمع بين التعليم والتطبيق العملي في مجالات تقنية وهندسية حديثة.",
-  aboutP4: "في منارة، لا نعلم فقط.. بل نُلهم، نُدرب، ونبني جيلاً قادراً على مواكبة العالم."
-
-  
+    heroSub: "مستقبل تقني جديد",
+    heroTitle: "نور يبدد الظلام",
+    heroDesc: "من غزة، نبعث الأمل ونصلح العقول بالمعرفة. مبادرة تقنية تهدف لتمكين الشباب وتدريبهم على أحدث التقنيات ليكونوا منارة المستقبل في أصعب الظروف العالمية",
+    aboutTitle: "نحن لا نعلم فقط... نحن نعيد صياغة الواقع الرقمي",
+    aboutDesc: "تأسست 'منارة' لتكون جسراً يعبر فوق الصعوبات، تؤمن أن المعرفة هي السلاح الأقوى، والتقنية هي لغة العصر التي لا نعترف بالحدود الجغرافية",
+    points: [
+      { title: "نلهم", desc: "نزرع بذور الأمل في العقول التي تستحق الصدارة" },
+      { title: "نجرب", desc: "نقدم مبادرات عملية تواكب سوق العمل العالمي" },
+      { title: "نبني", desc: "نحول الأفكار إلى مشاريع حقيقية تساهم في نهضة مجتمعنا" }
+    ],
+    stats: { projects: "مشروع تقني", trainees: "متدرب منهم" },
+    servicesTitle: "خدماتنا النخبوية",
+    servicesDesc: "صممنا حزمة من الخدمات التي تستهدف صناعة قادة المستقبل في المجال التقني من قلب غزة",
+    servicesCards: [
+      { title: "مشاريع برمجية", desc: "بناء حلول برمجية ذكية تلبي احتياجات المجتمع وتعزز التحول الرقمي الشامل" },
+      { title: "أنشطة لا منهجية", desc: "تعزيز المهارات الناعمة والقيادة المؤثرة من خلال فعاليات وأنشطة متنوعة" },
+      { title: "ورش عمل تقنية", desc: "لقاءات تقنية مكثفة لمناقشة أحدث التقنيات السحابية والذكاء الاصطناعي والويب" },
+      { title: "تدريب ميداني", desc: "خبرة عملية حقيقية من خلال التدريب داخل بيئة عمل احترافية" }
+    ],
+    teamTitle: "فريقنا.. نبض الابتكار",
+    teamDesc: "نخبة من المهندسين والمبدعين الذين يسعون لإحداث تغيير تقني ملموس.",
+    teamMembers: [
+      { name: "كرم حسين العوضي", role: "إدارة الفريق" },
+      { name: "بهاء الدين قاسم", role: "إدارة الفريق" },
+      { name: "البراء رائد السيقلي", role: "مطور ويب" },
+      { name: "رؤى خالد أبو فول", role: "مطور موبايل" },
+      { name: "بسمة السيد", role: "مطور ويب" }
+    ],
+    contactTitle: "ابقَ على اتصال بنبضنا",
+    contactDesc: "نحن هنا للإجابة على استفساراتكم ودعم طموحاتكم التقنية بكل السبل المتاحة",
+    namePlaceholder: "أدخل اسمك هنا",
+    emailPlaceholder: "example@mail.com",
+    messagePlaceholder: "كيف يمكننا مساعدتك اليوم؟",
+    sendBtn: "إرسال الطلب الآن",
+    address: "غزة، فلسطين - شارع النصر",
+    email: "manara.gaza.pal@gmail.com",
+    phone: "+972 59-321-3379",
+    footerText: "© 2026 منارة. جميع الحقوق محفوظة. مبادرة تقنية من قلب التحدي",
   },
   EN: {
     home: "Home",
@@ -23,12 +52,43 @@ export const translations = {
     team: "Our Team",
     contact: "Contact Us",
     join: "Join Us",
-    heroTitle: "Manara from the heart of the rubble",
-    heroDesc: "From the ashes of challenges, Manara was born... not as a passing idea, but as a message.",
-    aboutTitle: "About Us",
-  aboutP1: "Manara is a technical training team that aims to empower youth and students in Gaza through technical knowledge and practical skills.",
-  aboutP2: "We believe that technology is not just a tool, but a real opportunity for change and building a better future.",
-  aboutP3: "We conduct extracurricular activities for students, in addition to specialized programs for women and children, combining education and hands-on practice in modern technical and engineering fields.",
-  aboutP4: "At Manara, we don't just teach... we inspire, train, and build a generation capable of keeping up with the world."
+    heroSub: "A New Tech Future",
+    heroTitle: "Light That Dispels Darkness",
+    heroDesc: "From Gaza, we spread hope and build minds with knowledge",
+    aboutTitle: "We don't just teach... we reshape the digital reality",
+    aboutDesc: "Manara was established to be a bridge over difficulties, believing that knowledge is the strongest weapon",
+    points: [
+      { title: "Inspire", desc: "We plant the seeds of hope." },
+      { title: "Experiment", desc: "We provide practical initiatives." },
+      { title: "Build", desc: "We turn ideas into real projects." }
+    ],
+    stats: { projects: "Tech Projects", trainees: "Trainees" },
+    servicesTitle: "Our Premium Services",
+    servicesDesc: "We designed a package of services that aims to build the future leaders of technology from Gaza",
+    servicesCards: [
+      { title: "Software Projects", desc: "Building smart software solutions that support digital transformation" },
+      { title: "Extra Activities", desc: "Developing leadership and soft skills through various activities" },
+      { title: "Technical Workshops", desc: "Intensive workshops about Cloud Computing, AI and Web Technologies" },
+      { title: "Field Training", desc: "Real practical experience inside professional work environments" }
+    ],
+    teamTitle: "Our Team.. The Pulse of Innovation",
+    teamDesc: "A group of elite engineers and creators striving to make a tangible technical change",
+    teamMembers: [
+      { name: "Karam Hussein Al-Awadi", role: "Team Management" },
+      { name: "Bahaa El-Din Qasim", role: "Team Management" },
+      { name: "Al-Baraa Raed Al-Saiqli", role: "Web Developer" },
+      { name: "Roa Khaled Abu Foul", role: "Mobile Developer" },
+      { name: "Basma Alsayed", role: "Web Developer" }
+    ],
+    contactTitle: "Stay in touch with our pulse",
+    contactDesc: "We are here to answer your inquiries and support your technical ambitions in every possible way",
+    namePlaceholder: "Enter your name here",
+    emailPlaceholder: "example@mail.com",
+    messagePlaceholder: "How can we help you today?",
+    sendBtn: "Send Request Now",
+    address: "Gaza, Palestine - Al-Nasr Street",
+    email: "manara.gaza.pal@gmail.com",
+    phone: "+972 59-321-3379",
+    footerText: "© 2026 Manara. All rights reserved. A technical initiative from the heart of the challenge",
   }
 };

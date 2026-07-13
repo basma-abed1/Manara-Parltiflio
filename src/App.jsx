@@ -1,21 +1,25 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import './App.css'
 import Navbar from './Component/Navbar'
-import Home from './Component/Home'
+import HeroSection from './Component/HeroSection'
 import About from './Component/About'
+import { LanguageProvider } from './LanguageContext' // 2. استيراد الـ Provider
+import Services from './Component/Services'
+import Team from './Component/Team'
+import Contact from './Component/Contact'
+import Footer from './Component/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
+    <LanguageProvider>
       <Navbar />
-      <Home />
-      <About />
-    </>
+      <HeroSection />
+     <About />
+     <Services />
+     <Team />
+     <Contact />
+     <Footer />
+    </LanguageProvider>
   )
 }
 
