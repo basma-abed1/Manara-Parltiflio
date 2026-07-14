@@ -43,7 +43,7 @@ export const translations = {
     address: "غزة، فلسطين - شارع النصر",
     email: "manara.gaza.pal@gmail.com",
     phone: "+972 59-321-3379",
-    footerText: "© 2026 منارة. جميع الحقوق محفوظة. مبادرة تقنية من قلب التحدي",
+    footerText: "© 2026 منارة جميع الحقوق محفوظة مبادرة تقنية من قلب التحدي",
   },
   EN: {
     home: "Home",

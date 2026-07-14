@@ -6,16 +6,14 @@ function Contact() {
   const { t } = useContext(LanguageContext);
 
   return (
-    <section className="py-20 bg-white">
+    <section id='contact' className="py-20 bg-white">
       <div className="container mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
         
-        {/* الفورم */}
         <form 
           action="https://formsubmit.co/manara.gaza.pal@gmail.com" 
           method="POST" 
           className="bg-[#f9f9ff] p-8 md:p-12 rounded-[3rem] shadow-sm"
         >
-          {/* حقل مخفي للعودة للصفحة الرئيسية بعد الإرسال */}
           <input type="hidden" name="_next" value="http://localhost:5173" />
           
           <div className="grid md:grid-cols-2 gap-6 mb-6">

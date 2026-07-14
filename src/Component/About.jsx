@@ -26,7 +26,7 @@ function About() {
   const icons = [<FiTarget />, <FiCpu />, <FiTool />];
 
   return (
-    <section className="py-20 bg-white overflow-hidden">
+    <section id= 'about'className="py-20 bg-white overflow-hidden">
       <div className="container mx-auto px-6 md:px-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           
@@ -57,7 +57,6 @@ function About() {
             </div>
           </motion.div>
 
-          {/* نقاط القوة */}
           <div className="space-y-8">
             {t.points.map((point, index) => (
               <motion.div 

@@ -14,7 +14,7 @@ function Team() {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section id='team' className="py-20 bg-white">
       <div className="container mx-auto px-6 text-center">
         {/* عنوان السكشن مع تأثير حركة بسيط */}
         <motion.h2 
@@ -30,10 +30,9 @@ function Team() {
           {t.teamMembers.map((member, index) => (
             <motion.div 
               key={index}
-              // تأثير الصعود من الأسفل عند وصول المستخدم للسكشن
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }} // ليعمل التأثير مرة واحدة فقط
+              viewport={{ once: false }} // ليعمل التأثير مرة واحدة فقط
               transition={{ duration: 0.6, delay: index * 0.2 }} 
              viewport={{ once: false }}
 
@@ -41,7 +40,6 @@ function Team() {
               whileHover={{ scale: 1.05 }}
               className="flex flex-col items-center"
             >
-              {/* الصورة بنسبة 3/4 لتبدو طويلة وأنيقة */}
               <div className="w-full aspect-[3/4] mb-4 shadow-sm overflow-hidden rounded-3xl bg-gray-100">
                 <img 
                   src={teamImages[index]} 
