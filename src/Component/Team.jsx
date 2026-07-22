@@ -6,11 +6,11 @@ function Team() {
   const { t } = useContext(LanguageContext);
 
   const teamImages = [
-    "/Karam.png",
+    "/Karam.jpeg",
     "/Bahaa.png",
-    "/Baraa.png",
-    "/Roaa.png",
-    "/Basma.png"
+    "/Baraa.jpeg",
+    "/Roaa.jpeg",
+    "/Basma.jpeg"
   ];
 
   return (
